@@ -1,0 +1,9 @@
+std_msgs/Float64MultiArray path
+float64 workspace_speed
+float64[] workspace_end_pose
+bool in_workspace
+float64 goal_threshold
+---
+bool reached_dest
+---
+float64[] curr_position

@@ -1,0 +1,6 @@
+nav_msgs/OccupancyGrid map
+float64[] start
+float64[] goal
+---
+std_msgs/Float64MultiArray path
+bool status

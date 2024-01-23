@@ -1,0 +1,8 @@
+float64 time
+float64[] goal
+bool hold
+---
+bool status
+float64[] last_position
+---
+

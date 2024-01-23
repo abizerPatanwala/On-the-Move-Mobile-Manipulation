@@ -1,0 +1,9 @@
+float64[] obj_frame
+float64 ee_to_wrist
+float64 ee_offset
+float64 time
+string mode
+bool hold
+---
+bool reached
+---

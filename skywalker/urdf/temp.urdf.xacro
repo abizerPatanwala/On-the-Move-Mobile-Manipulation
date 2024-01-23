@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="manipulator" >  
+<xacro:include filename="$(find skywalker)/urdf/ur5e/ur5e_macro.xacro" /> 
+<xacro:ur5e_robot prefix="ur5e_"/>
+</robot>

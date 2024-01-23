@@ -1,0 +1,8 @@
+float64[] start
+float64[] goal
+nav_msgs/OccupancyGrid map
+---
+float64[] base_pose
+float64[] arm_pose
+float64 cost_value
+bool status
