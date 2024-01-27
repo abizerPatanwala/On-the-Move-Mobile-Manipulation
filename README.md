@@ -7,5 +7,5 @@ The aim of this project is to pick up an object while the base of the mobile man
 
 ## Results
 Beliw is the comparison of the path taken by OTM and static mobile manipulaion. OTM takes a slightly long path to maximize workspace coverage.
-![OTM Path](/results/OTM_static_comparison/OTM_Path.png)
+![OTM Path](results/OTM_static_comparison/OTM_path.png)
 ![Static Path](/results/OTM_static_comparison/static_Path.png)
