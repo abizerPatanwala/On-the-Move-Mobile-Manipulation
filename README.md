@@ -16,7 +16,7 @@ Above is the comparison of the path taken by OTM and static mobile manipulaion. 
 ### Task Execution Time Improvement
 ![OTM Path](results/execution_time_improvement.png)
 
-Above image shows time improvemet we get for OTM manipulaion with the difference in path distance between OTM and static path. 
+Above image shows time improvemet we get for OTM manipulaion with the difference in path distance between OTM and static mobile manipulation. 
 
 ### Gazebo Simulation
 
