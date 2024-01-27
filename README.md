@@ -1,5 +1,6 @@
 # On the Move Mobile Manipulation
-The aim of this project is to pick up an object while the base of the mobile manipulator is moving towards the goal. It **improves task execution time by an average of 23%** as compared to the case when th base stops for arm manipulation. This is ahieved by selecting a pick pose by optimizing a novel cost function and coordinating timely execution of arm and base motion while the base heads towards the goal. The system is tested in Gazebo wih a UR5e arm attached to a mobile base, where the robot picks a cuboid shape object from a table.   
+The aim of this project is to pick up an object while the base of the mobile manipulator is moving towards the goal. It **improves task execution time by an average of 23%** as compared to the case when the base stops for arm manipulation. This is ahieved by selecting a pick pose through optimization and coordinating timely execution of arm and base motion while the base heads towards the goal. The system is tested in Gazebo wih a UR5e arm attached to a mobile base, where the robot picks a cuboid shape object from a table.   
 
 ## Proposed Architecture:
 ![OTM Architecture](/results/OTM_architecture.png) 
+**Hybrid A*** is implemented for path planning of the base. **Regulated Pure Pursuit** is implemented for control of the base. The trajectories of the arm are generated using **Quintic Polynomials** and tracked using **PID** controllers. For optimizing Pick pose, a novel cost function is formulated which is optimized using **differential evolution** algorithm. 
