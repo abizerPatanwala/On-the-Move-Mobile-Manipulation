@@ -6,6 +6,6 @@ The aim of this project is to pick up an object while the base of the mobile man
 **Hybrid A*** is implemented for path planning of the base. **Regulated Pure Pursuit** is implemented for control of the base. The trajectories of the arm are generated using **Quintic Polynomials** and tracked using **PID** controllers. For optimizing pick pose, a novel cost function is formulated which is optimized using **differential evolution** algorithm. 
 
 ## Results
-Beliw is the comparison of the path taken by OTM and static mobile manipulaion. OTM takes a slightly long path to maximize workspace coverage.
 ![OTM Path](results/OTM_static_comparison/OTM_path.png)
-![Static Path](/results/OTM_static_comparison/static_Path.png)
+![Static Path](results/OTM_static_comparison/static_path.png)
+Above is the comparison of the path taken by OTM and static mobile manipulaion. OTM takes a slightly long path to maximize workspace coverage.
